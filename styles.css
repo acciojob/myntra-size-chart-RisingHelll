@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+table, td, th{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+th, td{
+	text-align: right;
+	width: 100px;
+	font-weight: normal;
+}
+
+.left, th{
+	text-align: left;
+}
+
+.white, th{
+	color:white;
+}
+
+th{
+	background-color:#d65151;
+}
+
+.white{
+	background-color:#ed9595;
+}
+
+.b1{
+	background-color:#fae1e1;
+}
+
+.b2{
+	background-color:#d9d9d9;
+}
